@@ -19,7 +19,7 @@ Our journey with students has always been grounded in strong secular and ethical
     ));
 
   return (
-    <section className="w-full px-4 sm:px-6 lg:px-[5vw] py-12 bg-white_shade">
+    <section className="w-full px-4 sm:px-6 lg:px-[5vw] py-12 bg-white_shade" data-aos="fade-up">
       <div className="flex flex-col gap-10">
         {/* Responsive Card */}
         <div className="bg-white shadow-custom rounded-2xl p-4 sm:p-6 md:p-8 flex flex-col lg:flex-row gap-6 w-full">

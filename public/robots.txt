@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.nsshssadoor.in
+
+# Sitemaps
+Sitemap: https://www.nsshssadoor.in/sitemap.xml

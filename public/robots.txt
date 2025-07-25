@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.nsshssadoor.in
+Host: https://www.nsshssadoor.org
 
 # Sitemaps
-Sitemap: https://www.nsshssadoor.in/sitemap.xml
+Sitemap: https://www.nsshssadoor.org/sitemap.xml

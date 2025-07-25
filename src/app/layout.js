@@ -29,11 +29,11 @@ export const metadata = {
     title: "NSS HSS Adoor",
     description:
       "Official Website of NSS Higher Secondary School Adoor, providing quality education and holistic development in Kerala.",
-    url: "https://www.nsshssadoor.in",
+    url: "https://www.nsshssadoor.org",
     type: "website",
     images: [
       {
-        url: "https://www.nsshssadoor.in/images/logo.png",
+        url: "https://www.nsshssadoor.org/images/logo.png",
         width: 1200,
         height: 630,
         alt: "NSS HSS Adoor Logo",
@@ -46,7 +46,7 @@ export const metadata = {
     title: "NSS HSS Adoor",
     description:
       "Official Website of NSS Higher Secondary School Adoor, providing quality education and holistic development in Kerala.",
-    images: ["https://www.nsshssadoor.in/images/logo.png"],
+    images: ["https://www.nsshssadoor.org/images/logo.png"],
   },
 };
 

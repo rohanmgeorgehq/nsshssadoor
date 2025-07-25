@@ -11,11 +11,11 @@ export const metadata = {
     title: "Staff Details | NSS HSS Adoor",
     description:
       "Get to know the talented staff members at NSS Higher Secondary School Adoor, from academic instructors to administrative personnel.",
-    url: "https://nsshssadoor.in/staff",
+    url: "https://nsshssadoor.org/staff",
     site_name: "NSS HSS Adoor",
     images: [
       {
-        url: "https://nsshssadoor.in/images/staff-banner.jpg",
+        url: "https://nsshssadoor.org/images/staff-banner.jpg",
         width: 1200,
         height: 630,
         alt: "Staff Members At NSS HSS Adoor",
@@ -29,7 +29,7 @@ export const metadata = {
     title: "Staff Details | NSS HSS Adoor",
     description:
       "Explore the staff details at NSS Higher Secondary School Adoor and learn about the team of dedicated professionals working to support student success.",
-    image: "https://nsshssadoor.in/images/staff-banner.jpg",
+    image: "https://nsshssadoor.org/images/staff-banner.jpg",
   },
   robots: {
     index: true,

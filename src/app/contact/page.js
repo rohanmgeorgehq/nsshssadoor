@@ -11,11 +11,11 @@ export const metadata = {
     title: "Contact Us | NSS HSS Adoor",
     description:
       "Reach out to NSS Higher Secondary School Adoor for any inquiries or support. Our team is here to help with your academic needs.",
-    url: "https://nsshssadoor.in/contact",
+    url: "https://nsshssadoor.org/contact",
     site_name: "NSS HSS Adoor",
     images: [
       {
-        url: "https://nsshssadoor.in/images/contact-banner.jpg",
+        url: "https://nsshssadoor.org/images/contact-banner.jpg",
         width: 1200,
         height: 630,
         alt: "Contact NSS HSS Adoor",
@@ -29,7 +29,7 @@ export const metadata = {
     title: "Contact Us | NSS HSS Adoor",
     description:
       "Contact NSS Higher Secondary School Adoor for any questions, support, or information related to our programs.",
-    image: "https://nsshssadoor.in/images/contact-banner.jpg",
+    image: "https://nsshssadoor.org/images/contact-banner.jpg",
   },
   robots: {
     index: true,

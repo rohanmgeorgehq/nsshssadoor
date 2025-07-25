@@ -11,11 +11,11 @@ export const metadata = {
     title: "Gallery | NSS HSS Adoor",
     description:
       "View the stunning gallery showcasing the best moments at NSS Higher Secondary School Adoor. A visual representation of the school's academic, cultural, and sports activities.",
-    url: "https://nsshssadoor.in/gallery",
+    url: "https://nsshssadoor.org/gallery",
     site_name: "NSS HSS Adoor",
     images: [
       {
-        url: "https://nsshssadoor.in/images/gallery-banner.jpg",
+        url: "https://nsshssadoor.org/images/gallery-banner.jpg",
         width: 1200,
         height: 630,
         alt: "Gallery Of NSS HSS Adoor",
@@ -29,7 +29,7 @@ export const metadata = {
     title: "Gallery | NSS HSS Adoor",
     description:
       "Check out the gallery of NSS Higher Secondary School Adoor and relive the best moments from our events and activities.",
-    image: "https://nsshssadoor.in/images/gallery-banner.jpg",
+    image: "https://nsshssadoor.org/images/gallery-banner.jpg",
   },
   robots: {
     index: true,

@@ -11,11 +11,11 @@ export const metadata = {
     title: "Academics | NSS HSS Adoor",
     description:
       "Discover the academic programs and courses offered at NSS Higher Secondary School Adoor, designed to nurture the intellectual and personal growth of students.",
-    url: "https://nsshssadoor.in/academics",
+    url: "https://nsshssadoor.org/academics",
     site_name: "NSS HSS Adoor",
     images: [
       {
-        url: "https://nsshssadoor.in/images/academics-banner.jpg",
+        url: "https://nsshssadoor.org/images/academics-banner.jpg",
         width: 1200,
         height: 630,
         alt: "Academics At NSS HSS Adoor",
@@ -29,7 +29,7 @@ export const metadata = {
     title: "Academics | NSS HSS Adoor",
     description:
       "Learn about the academic programs offered at NSS Higher Secondary School Adoor, tailored to provide quality education.",
-    image: "https://nsshssadoor.in/images/academics-banner.jpg",
+    image: "https://nsshssadoor.org/images/academics-banner.jpg",
   },
   robots: {
     index: true,

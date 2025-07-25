@@ -69,7 +69,7 @@ Our journey with students has always been grounded in strong secular and ethical
             <p className="text-font-secondary font-semibold text-[3.5vw] sm:text-[2.8vw] md:text-[1.2vw]">
               Since 1934, Adoor, Pathanamthitta, Kerala
             </p>
-            <p className="text-font-secondary text-[3.2vw] sm:text-[2.6vw] md:text-base leading-relaxed text-justify">
+            <p className="text-font-secondary text-[3.2vw] sm:text-base md:text-base leading-relaxed text-justify">
               {renderTextWithLineBreaks(aboutText)}
             </p>
           </div>

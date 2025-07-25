@@ -10,14 +10,12 @@ For nearly a century, we’ve remained committed to making quality education acc
 
 Our journey with students has always been grounded in strong secular and ethical values. We believe in shaping individuals who grow without barriers of bias or prejudice, and who are encouraged to discover their strengths, refine their talents, and pursue their dreams with confidence.`;
 
-  // Split into semantic paragraphs for accessibility, just like the Founder section!
-  const aboutParagraphs = aboutText
-    .split("\n")
-    .filter(Boolean)
-    .map((para, i) => (
-      <p key={i} className="mb-4 last:mb-0">
-        {para}
-      </p>
+  const renderTextWithLineBreaks = (text) =>
+    text.split("\n").map((line, i) => (
+      <React.Fragment key={i}>
+        {line}
+        <br />
+      </React.Fragment>
     ));
 
   return (
@@ -33,11 +31,10 @@ Our journey with students has always been grounded in strong secular and ethical
             <div className="w-full aspect-[16/9] relative rounded-lg overflow-hidden">
               <Image
                 src="/images/about/1.jpg"
-                alt="Main building and campus of NSS Higher Secondary School Adoor"
+                alt="nsshssadoor"
                 fill
                 className="object-cover rounded-lg"
                 sizes="100vw"
-                priority
               />
             </div>
 
@@ -45,7 +42,7 @@ Our journey with students has always been grounded in strong secular and ethical
               <div className="aspect-[4/3] relative w-full">
                 <Image
                   src="/images/about/3.jpg"
-                  alt="Students at NSS HSS Adoor"
+                  alt="nsshssadoor"
                   fill
                   className="object-cover rounded-lg"
                 />
@@ -53,7 +50,7 @@ Our journey with students has always been grounded in strong secular and ethical
               <div className="aspect-[4/3] relative w-full">
                 <Image
                   src="/images/about/2.jpg"
-                  alt="Historic founders of NSS HSS Adoor"
+                  alt="nsshssadoor"
                   fill
                   className="object-cover rounded-lg"
                 />
@@ -72,9 +69,9 @@ Our journey with students has always been grounded in strong secular and ethical
             <p className="text-font-secondary font-semibold text-[3.5vw] sm:text-[2.8vw] md:text-[1.2vw]">
               Since 1934, Adoor, Pathanamthitta, Kerala
             </p>
-            <div className="text-sm sm:text-base md:text-lg text-font-secondary leading-relaxed max-w-4xl text-justify sm:text-center">
-              {aboutParagraphs}
-            </div>
+            <p className="text-font-secondary text-[3.2vw] sm:text-[2.6vw] md:text-base leading-relaxed text-justify">
+              {renderTextWithLineBreaks(aboutText)}
+            </p>
           </div>
         </div>
       </div>

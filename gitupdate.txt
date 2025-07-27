@@ -1,0 +1,4 @@
+git add .
+git commit -m "Your message" or 
+git commit --allow-empty-message -m ""
+git push

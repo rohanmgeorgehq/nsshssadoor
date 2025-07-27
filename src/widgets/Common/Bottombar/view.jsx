@@ -16,9 +16,15 @@ export default function Bottombar() {
         {/* Right - Developer Credit */}
         <div className="opacity-90">
           Made with <span className="text-red-500">❤️</span> by{" "}
-          <span className="font-semibold text-primary">Rohan M George</span>{" "}
-          <span className="block sm:inline">
+          <span className="font-semibold text-primary">Rohan M George</span>
+          {/* Large screens: show with pipe */}
+          <span className="hidden sm:inline">
             &nbsp;| +2 Computer Science, 2024–2026 Batch
+          </span>
+          {/* Small screens: show without pipe */}
+          <br />
+          <span className="inline sm:hidden">
+            &nbsp;+2 Computer Science, 2024–2026 Batch
           </span>
         </div>
       </div>

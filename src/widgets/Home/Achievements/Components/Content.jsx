@@ -14,30 +14,35 @@ const achievements = [
 
 export default function Content() {
   return (
-    <section className="w-full px-4 sm:px-6 lg:px-[5vw] py-14 bg-white_shade" data-aos="fade-up">
+    <section
+      className="w-full px-3 sm:px-6 lg:px-[5vw] py-14 bg-white_shade"
+      data-aos="fade-up"
+    >
       {/* Title */}
-      <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary text-center mb-8">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-primary text-center mb-8">
         Achievements
       </h2>
 
-      {/* Marquee Section */}
-      <div className="bg-white shadow-custom rounded-2xl p-6 md:p-10 overflow-hidden">
+      {/* Default Card Container */}
+      <div className="bg-white rounded-3xl shadow-lg border border-gray-100 p-6 sm:p-10 md:p-12">
         <div className="relative overflow-hidden w-full group">
-          <div className="flex w-max animate-marquee gap-4 sm:gap-6 group-hover:[animation-play-state:paused]">
+          <div className="flex w-max animate-marquee gap-8 sm:gap-10 group-hover:[animation-play-state:paused]">
             {[...achievements, ...achievements].map((item, index) => (
               <div
                 key={index}
-                className="min-w-[250px] sm:min-w-[300px] bg-primary-100 text-primary rounded-xl px-5 py-3 sm:px-6 sm:py-4 shadow-md flex items-center gap-3 font-medium"
+                className="flex items-center gap-3 sm:gap-4 px-2 sm:px-3 py-2"
               >
-                <FiAward className="text-lg shrink-0" />
-                <span className="text-sm sm:text-base">{item}</span>
+                <FiAward className="text-primary text-lg sm:text-xl md:text-2xl shrink-0" />
+                <span className="text-base sm:text-lg md:text-xl text-gray-900">
+                  {item}
+                </span>
               </div>
             ))}
           </div>
         </div>
       </div>
 
-      {/* CSS for marquee animation */}
+      {/* Animation */}
       <style jsx>{`
         @keyframes marquee {
           0% {
@@ -48,7 +53,7 @@ export default function Content() {
           }
         }
         .animate-marquee {
-          animation: marquee 35s linear infinite;
+          animation: marquee 32s linear infinite;
         }
       `}</style>
     </section>

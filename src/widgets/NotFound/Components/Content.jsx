@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Content() {
   return (
-    <main className="min-h-[70vh] px-4 sm:px-6 lg:px-[5vw] py-16 bg-white_shade flex items-center justify-center">
+    <main className="min-h-[70vh] px-4 sm:px-6 lg:px-[5vw]  bg-white_shade flex items-center justify-center">
       <div className="flex flex-col items-center justify-center text-center gap-6">
         {/* Animated GIF */}
         <img

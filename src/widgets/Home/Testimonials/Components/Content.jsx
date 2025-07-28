@@ -33,7 +33,7 @@ const testimonials = [
 
 export default function Content() {
   return (
-    <section className="w-full px-4 sm:px-6 lg:px-[5vw] py-16 bg-white_shade" data-aos="fade-up">
+    <section className="w-full px-4 sm:px-6 lg:px-[5vw] pb-16 bg-white_shade" data-aos="fade-up">
       {/* Title */}
       <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary text-center mb-8">
         Testimonials

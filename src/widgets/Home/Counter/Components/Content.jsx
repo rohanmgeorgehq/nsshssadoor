@@ -42,7 +42,7 @@ export default function Content() {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
-    <section className="w-full py-14 px-4 sm:px-6 lg:px-[5vw] bg-white_shade">
+    <section className="w-full pb-14 px-4 sm:px-6 lg:px-[5vw] bg-white_shade">
       {/* Section Heading */}
       <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary text-center mb-10">
         School At A Glance

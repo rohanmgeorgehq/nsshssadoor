@@ -17,7 +17,7 @@ export default function Content() {
   const closeLightbox = () => setSelectedImage(null);
 
   return (
-    <div className="w-full px-[5vw] py-12 pt-[100px] lg:pt-16 bg-white_shade">
+    <div className="w-full px-[5vw]  pt-[100px] lg:pt-16 bg-white_shade">
       <div className="flex flex-col gap-10">
         <TitleBar title="Staff" />
 

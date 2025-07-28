@@ -37,7 +37,7 @@ const iconMap = {
 
 export default function Footer() {
   return (
-    <footer className="w-full px-[5vw] py-12 mt-10 bg-white_shade">
+    <footer className="w-full px-[5vw] pb-12 mt-10 bg-white_shade">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Logo & About Section */}
         <div className="bg-white border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col gap-4">

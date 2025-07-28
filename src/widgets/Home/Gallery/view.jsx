@@ -13,7 +13,7 @@ export default function GalleryView() {
 
   return (
     <section
-      className="w-full px-2 sm:px-6 lg:px-[5vw] py-10 bg-white_shade"
+      className="w-full px-2 sm:px-6 lg:px-[5vw] pb-10 bg-white_shade"
       data-aos="fade-up"
     >
       <div className="bg-white shadow-custom rounded-2xl p-2 xs:p-4 sm:p-8 md:p-10 flex flex-col gap-6 overflow-hidden">

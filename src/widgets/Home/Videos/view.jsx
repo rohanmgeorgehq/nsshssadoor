@@ -5,7 +5,7 @@ import React from "react";
 export default function Video() {
   return (
     <section
-      className="w-full px-2 sm:px-4 md:px-6 lg:px-[5vw] py-10 bg-white_shade flex justify-center"
+      className="w-full px-2 sm:px-4 md:px-6 lg:px-[5vw] pb-10 bg-white_shade flex justify-center"
       data-aos="fade-up"
     >
       <div className="w-full max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-3xl bg-white rounded-2xl shadow-custom px-2 sm:px-4 md:px-8 py-4 md:py-8 flex flex-col items-center gap-4 sm:gap-6 transition-all duration-300">

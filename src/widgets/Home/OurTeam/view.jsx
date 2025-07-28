@@ -42,7 +42,7 @@ export default function OurTeam() {
 
   return (
     <section
-      className="w-full px-4 sm:px-6 md:px-10 lg:px-[5vw] py-16 bg-white_shade"
+      className="w-full px-4 sm:px-6 md:px-10 lg:px-[5vw] bg-white_shade"
       data-aos="fade-up"
     >
       <div className="flex flex-col gap-10 max-w-7xl mx-auto">

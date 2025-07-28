@@ -13,7 +13,7 @@ export default function Content() {
             Learn with Culture, Succeed with Values
           </span>
           <span className="font-bold text-primary whitespace-nowrap">
-            @ NSS Higher Secondary School Adoor
+            @ NSS Higher Secondary School
           </span>
         </h2>
 

@@ -20,7 +20,7 @@ Our journey with students has always been grounded in strong secular and ethical
 
   return (
     <section
-      className="w-full px-4 sm:px-6 lg:px-[5vw] py-12 bg-white_shade"
+      className="w-full px-4 sm:px-6 lg:px-[5vw]  bg-white_shade"
       data-aos="fade-up"
     >
       <div className="flex flex-col gap-10">

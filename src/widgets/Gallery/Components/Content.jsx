@@ -38,7 +38,7 @@ const Gallery = () => {
   }, [selectedImage]);
 
   return (
-    <div className="w-full px-4 sm:px-6 lg:px-[5vw] pt-[100px] lg:pt-16 pb-16 flex flex-col gap-8 bg-white_shade">
+    <div className="w-full px-4 sm:px-6 lg:px-[5vw] pt-[100px] lg:pt-16  flex flex-col gap-8 bg-white_shade">
       <TitleBar title="Gallery" />
 
       {/* Grid Gallery */}

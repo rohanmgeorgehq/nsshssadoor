@@ -58,7 +58,7 @@ const Banner = () => {
             <div className="bg-black/30 backdrop-blur-md p-4 sm:p-6 rounded-lg max-w-[90vw] md:max-w-[60vw] transition-all">
               <h1 className="text-white text-xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight drop-shadow-lg">
                 Welcome to <br />
-                NSS Higher Secondary School Adoor
+                NSS Higher Secondary School
               </h1>
             </div>
 

@@ -20,7 +20,7 @@ Our journey with students has always been grounded in strong secular and ethical
     ));
 
   return (
-    <section className="w-full px-4 sm:px-6 lg:px-[5vw] py-16 bg-white_shade">
+    <section className="w-full px-4 sm:px-6 lg:px-[5vw] pt-16 bg-white_shade">
       <div className="flex flex-col gap-10">
         <TitleBar title="About Us" />
 

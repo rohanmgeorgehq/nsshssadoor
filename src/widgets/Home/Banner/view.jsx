@@ -4,6 +4,7 @@ import React, { useEffect, useState, useRef } from "react";
 import "@styles/banner.scss";
 import Image from "@components/Image";
 import { GoArrowRight } from "react-icons/go";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Link from "next/link";
 
 const images = [
@@ -31,6 +32,16 @@ const Banner = () => {
 
   const handleDotClick = (index) => {
     setCurrentIndex(index);
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? imageCount - 1 : prevIndex - 1
+    );
+  };
+
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % imageCount);
   };
 
   return (
@@ -70,6 +81,24 @@ const Banner = () => {
           </div>
         </div>
       ))}
+
+      {/* Left Arrow */}
+      <button
+        aria-label="Previous Slide"
+        onClick={prevSlide}
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 z-20 p-3 rounded-full bg-black/50 hover:bg-black/80 text-white transition-colors"
+      >
+        <IoIosArrowBack size={30} />
+      </button>
+
+      {/* Right Arrow */}
+      <button
+        aria-label="Next Slide"
+        onClick={nextSlide}
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 z-20 p-3 rounded-full bg-black/50 hover:bg-black/80 text-white transition-colors"
+      >
+        <IoIosArrowForward size={30} />
+      </button>
 
       {/* Dot Navigation */}
       <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20">

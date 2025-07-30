@@ -4,11 +4,12 @@ import React from "react";
 
 export default function GalleryView() {
   const images = [
-    "/images/bg/bg2.jpg",
-    "/images/bg/bg1.jpg",
-    "/images/bg/bg4.jpg",
-    "/images/bg/bg3.jpg",
-    "/images/bg/bg5.jpg",
+    "/images/gallery/1.jpg",
+    "/images/gallery/2.jpg",
+    "/images/gallery/5.jpg",
+    "/images/gallery/9.jpg",
+    "/images/gallery/10.jpg",
+    "/images/gallery/12.jpg",
   ];
 
   return (

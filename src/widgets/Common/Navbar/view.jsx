@@ -60,7 +60,7 @@ export default function Navbar() {
                     <span className="font-sans">9:00</span>AM –{" "}
                     <span className="font-sans">5:00</span>PM
                   </span>
-                  <span>Mon to Fri</span>
+                  <span>Monday to Friday</span>
                 </div>
               </div>
 
@@ -72,12 +72,12 @@ export default function Navbar() {
                 <div className="flex flex-col leading-tight text-sm text-font-secondary">
                   <span>Call us</span>
                   <span className="font-sans">
-                    <Link href="tel:+918281821908" className="hover:underline">
-                      +91 8281821908
-                    </Link>
-                    <br />
                     <Link href="tel:04734220908" className="hover:underline">
                       04734 220908
+                    </Link>
+                    <br />
+                    <Link href="tel:+918281821908" className="hover:underline">
+                      +91 8281821908
                     </Link>
                   </span>
                 </div>

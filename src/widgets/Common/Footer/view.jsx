@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import {
   FiHome,
   FiInfo,
@@ -36,6 +37,8 @@ const iconMap = {
 };
 
 export default function Footer() {
+  const pathname = usePathname();
+
   return (
     <footer className="w-full px-[5vw] pb-12 mt-10 bg-white_shade">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -61,8 +64,8 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm text-font-secondary text-justify leading-relaxed">
-            At NSS Higher Secondary School Adoor, we provide quality education
-            focused on academics, values, and preparing students for the future.
+            At NSS Higher Secondary School, we provide quality education focused
+            on academics, values, and preparing students for the future.
           </p>
         </div>
 
@@ -72,16 +75,27 @@ export default function Footer() {
             Quick Links
           </h3>
           <div className="grid grid-cols-2 gap-x-6 gap-y-2">
-            {navItems.map((item) => (
-              <Link
-                key={item.title}
-                href={item.link}
-                className="capitalize hover:text-primary transition-colors duration-200 flex items-center gap-2 text-sm"
-              >
-                {iconMap[item.title] || <FiHome className="text-primary" />}
-                {item.title}
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const isActive =
+                pathname === item.link ||
+                (item.link !== "/" && pathname.startsWith(item.link));
+              return (
+                <Link
+                  key={item.title}
+                  href={item.link}
+                  className={`capitalize flex items-center gap-2 text-sm transition-colors duration-200
+          hover:text-primary
+          ${
+            isActive
+              ? "text-primary font-semibold underline underline-offset-4"
+              : "text-font-secondary"
+          }`}
+                >
+                  {iconMap[item.title] || <FiHome className="text-primary" />}
+                  {item.title}
+                </Link>
+              );
+            })}
           </div>
         </div>
 
@@ -101,7 +115,6 @@ export default function Footer() {
                 nsshssadoor@gmail.com
               </a>
             </div>
-
             {/* Phone Numbers */}
             <div className="flex items-start gap-2">
               <FontAwesomeIcon
@@ -109,15 +122,14 @@ export default function Footer() {
                 className="h-4 text-primary mt-1"
               />
               <div className="flex flex-col">
-                <a href="tel:+918281821908" className="hover:underline">
-                  +91 8281821908
-                </a>
                 <a href="tel:04734220908" className="hover:underline">
                   04734 220908
                 </a>
+                <a href="tel:+918281821908" className="hover:underline">
+                  +91 8281821908
+                </a>
               </div>
             </div>
-
             {/* Address */}
             <div className="flex items-start gap-2">
               <FontAwesomeIcon
@@ -129,7 +141,6 @@ export default function Footer() {
                 691529
               </span>
             </div>
-
             {/* Social Media */}
             <div className="flex gap-4 mt-2">
               <a

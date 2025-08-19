@@ -22,14 +22,7 @@ export const metadata = {
     ],
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@nsshssadoor",
-    title: "Non Academics | NSS HSS Adoor",
-    description:
-      "Clubs, arts, sports, and more. Dive into the non-academic experiences at NSS Higher Secondary School Adoor.",
-    image: "https://nsshssadoor.org/images/non-academics-banner.jpg",
-  },
+
   robots: {
     index: true,
     follow: true,

@@ -23,14 +23,7 @@ export const metadata = {
     ],
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@nsshssadoor",
-    title: "Academics | NSS HSS Adoor",
-    description:
-      "Learn about the academic programs offered at NSS Higher Secondary School Adoor, tailored to provide quality education.",
-    image: "https://nsshssadoor.org/images/academics-banner.jpg",
-  },
+
   robots: {
     index: true,
     follow: true,

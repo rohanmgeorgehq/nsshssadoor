@@ -23,14 +23,7 @@ export const metadata = {
     ],
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@nsshssadoor",
-    title: "Staff Details | NSS HSS Adoor",
-    description:
-      "Explore the staff details at NSS Higher Secondary School Adoor and learn about the team of dedicated professionals working to support student success.",
-    image: "https://nsshssadoor.org/images/staff-banner.jpg",
-  },
+
   robots: {
     index: true,
     follow: true,

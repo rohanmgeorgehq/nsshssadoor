@@ -23,14 +23,7 @@ export const metadata = {
     ],
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@nsshssadoor",
-    title: "Contact Us | NSS HSS Adoor",
-    description:
-      "Contact NSS Higher Secondary School Adoor for any questions, support, or information related to our programs.",
-    image: "https://nsshssadoor.org/images/contact-banner.jpg",
-  },
+
   robots: {
     index: true,
     follow: true,

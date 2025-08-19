@@ -23,14 +23,7 @@ export const metadata = {
     ],
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@nsshssadoor",
-    title: "Gallery | NSS HSS Adoor",
-    description:
-      "Check out the gallery of NSS Higher Secondary School Adoor and relive the best moments from our events and activities.",
-    image: "https://nsshssadoor.org/images/gallery-banner.jpg",
-  },
+
   robots: {
     index: true,
     follow: true,

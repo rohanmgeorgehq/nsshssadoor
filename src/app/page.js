@@ -1,5 +1,4 @@
 import HomePage from "@widgets/Home";
-import Image from "next/image";
 
 export const metadata = {
   title: "NSS HSS Adoor",

@@ -3,7 +3,6 @@ import Navbar from "@widgets/Common/Navbar";
 import Menubar from "@widgets/Common/Menubar";
 import Footer from "@widgets/Common/Footer";
 import Bottombar from "@widgets/Common/Bottombar";
-import { Analytics } from "@vercel/analytics/react";
 import AOSProvider from "@components/AOSProvider";
 import AnnouncementBar from "@widgets/Common/AnnouncementBar";
 
@@ -39,14 +38,6 @@ export const metadata = {
         alt: "NSS HSS Adoor Logo",
       },
     ],
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "NSS HSS Adoor",
-    description:
-      "Official Website of NSS Higher Secondary School Adoor, providing quality education and holistic development in Kerala.",
-    images: ["https://www.nsshssadoor.org/images/logo.png"],
   },
 };
 

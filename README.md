@@ -7,7 +7,6 @@
 - Responsive design for all devices
 - Dynamic gallery and staff pages
 - Academics and non-academics sections
-- Contact form
 - SEO optimized with sitemap and robots.txt
 - Fast loading and smooth animations
 
@@ -45,14 +44,6 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
 
 ## 📝 Editing Content
-
-- Main page: `src/app/page.js`
-- About: `src/app/about/page.jsx`
-- Academics: `src/app/academics/page.js`
-- Gallery: `src/app/gallery/page.js`
-- Staff: `src/app/staff/page.js`
-- Non-Academics: `src/app/non-academics/page.js`
-- Contact: `src/app/contact/page.js`
 
 All changes auto-update in development mode.
 

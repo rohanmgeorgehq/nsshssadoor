@@ -1,6 +1,36 @@
-## Getting Started
+# NSS HSS Adoor Website
 
-First, run the development server:
+>A modern, responsive website for NSS Higher Secondary School, Adoor, built with Next.js and Tailwind CSS.
+
+## 🚀 Features
+
+- Responsive design for all devices
+- Dynamic gallery and staff pages
+- Academics and non-academics sections
+- Contact form
+- SEO optimized with sitemap and robots.txt
+- Fast loading and smooth animations
+
+## 🛠 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PostCSS](https://postcss.org/)
+
+## 📦 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/rohanmgeorgehq/nsshssadoor.git
+cd nsshssadoorwebsite
+npm install
+# or
+yarn install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -12,23 +42,36 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📝 Editing Content
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Main page: `src/app/page.js`
+- About: `src/app/about/page.jsx`
+- Academics: `src/app/academics/page.js`
+- Gallery: `src/app/gallery/page.js`
+- Staff: `src/app/staff/page.js`
+- Non-Academics: `src/app/non-academics/page.js`
+- Contact: `src/app/contact/page.js`
 
-## Learn More
+All changes auto-update in development mode.
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Learn More
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚢 Deployment
 
-## Deploy on Vercel
+Deploy easily on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) or your preferred platform.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is licensed under the MIT License.

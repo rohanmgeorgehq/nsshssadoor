@@ -1,4 +1,4 @@
-@use "./variables" as *;
+@use "./_variables" as *;
 
 .transition-transform {
   transition-property: transform;
@@ -6,6 +6,6 @@
   transition-timing-function: ease-in-out;
 }
 
-.transform-none {
+.transition-none {
   transition: none;
 }

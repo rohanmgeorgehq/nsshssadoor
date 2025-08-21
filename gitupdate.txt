@@ -1,4 +1,27 @@
+
+# Common Git Workflow Steps
+
+# 1. Check current status
+git status
+
+# 2. Add all changes
 git add .
-git commit -m "Your message" or 
-git commit --allow-empty-message -m ""
-git push
+
+# 3. Commit changes
+git commit -m "Your commit message here"
+#   or to allow an empty message:
+# git commit --allow-empty-message -m ""
+
+# 4. Pull latest changes from remote (to avoid conflicts)
+git pull origin main
+#   or replace 'main' with your branch name if different
+
+# 5. Push your changes to remote
+git push origin main
+#   or replace 'main' with your branch name if different
+
+# 6. (Optional) Create and switch to a new branch
+# git checkout -b your-branch-name
+
+# 7. (Optional) Switch to an existing branch
+# git checkout branch-name

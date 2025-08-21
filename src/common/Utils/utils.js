@@ -1,3 +1,6 @@
+
+import { FiHome, FiInfo, FiBookOpen, FiUsers, FiImage, FiPhone } from "react-icons/fi";
+
 export const logos = {
   nssLogoPng: "/images/logo.png",
 };
@@ -115,12 +118,12 @@ export const teachingStaffDetails = [
   {
     name: "Smt. Ushadevi K R",
     designation: "HSST Senior Sel Gr Mathematics",
-    photo: "images/staff/ushatr.jpg",
+    photo: "/images/staff/ushatr.jpg",
   },
   {
     name: "Smt. Sree Subha G",
     designation: "HSST Senior Sel Gr History",
-    photo: "images/staff/sreesubhatr.jpg",
+    photo: "/images/staff/sreesubhatr.jpg",
   },
   {
     name: "Sri. Girish Kumar G",
@@ -135,69 +138,69 @@ export const teachingStaffDetails = [
   {
     name: "Smt. Manjusha S",
     designation: "HSST Senior Sel Gr Physics",
-    photo: "images/staff/manjushatr.jpg",
+    photo: "/images/staff/manjushatr.jpg",
   },
   {
     name: "Smt. Lali R Pillai",
     designation: "HSST Senior Sel Gr Physics",
-    photo: "images/staff/lalitr.jpeg",
+    photo: "/images/staff/lalitr.jpeg",
   },
   {
     name: "Smt. Rugma S",
     designation: "HSST Senior Sel Gr Chemistry",
-    photo: "images/staff/rugmatr.jpg",
+    photo: "/images/staff/rugmatr.jpg",
   },
   {
     name: "Sri. G Balachandran Nair",
     designation: "HSST Senior Sel Gr English",
-    photo: "images/staff/balachandransir.jpg",
+    photo: "/images/staff/balachandransir.jpg",
   },
   {
     name: "Smt. Rekha Radhan G",
     designation: "HSST Senior Sel Gr Commerce",
-    photo: "images/staff/rekhatr.jpeg",
+    photo: "/images/staff/rekhatr.jpeg",
   },
   {
     name: "Smt. Dhanya V P",
     designation: "HSST Senior Sel Gr Geography",
-    photo: "images/staff/dhanyatr.jpg",
+    photo: "/images/staff/dhanyatr.jpg",
   },
 
   {
     name: "Smt. Lekha R",
     designation: "HSST Senior Sel Gr English",
-    photo: "images/staff/lekhatr.jpg",
+    photo: "/images/staff/lekhatr.jpg",
   },
 
   {
     name: "Smt. Maya G",
     designation: "HSST Senior Sel Gr Malayalam",
-    photo: "images/staff/mayatr.jpg",
+    photo: "/images/staff/mayatr.jpg",
   },
   {
     name: "Smt. Jayasree K R",
     designation: "HSST Senior HG Hindi",
-    photo: "images/staff/jayasreetr.jpg",
+    photo: "/images/staff/jayasreetr.jpg",
   },
   {
     name: "Smt. Seena T R",
     designation: "HSST Junior Sel Gr Chemistry",
-    photo: "images/staff/seenatr.jpeg",
+    photo: "/images/staff/seenatr.jpeg",
   },
   {
     name: "Sri. Ajish M",
     designation: "HSST Junior HG Computer Science",
-    photo: "images/staff/ajishsir.jpg",
+    photo: "/images/staff/ajishsir.jpg",
   },
   {
     name: "Smt. Priya S",
     designation: "HSST Junior Sel Gr Zoology",
-    photo: "images/staff/priyatr.jpeg",
+    photo: "/images/staff/priyatr.jpeg",
   },
   {
     name: "Smt. Manju G",
     designation: "HSST Junior Sel Gr Economics",
-    photo: "images/staff/manjutr.jpeg",
+    photo: "/images/staff/manjutr.jpeg",
   },
   {
     name: "Sri. Anilaj B",
@@ -207,18 +210,18 @@ export const teachingStaffDetails = [
   {
     name: "Smt. Remya C R",
     designation: "HSST Junior Commerce",
-    photo: "images/staff/remyatr.jpg",
+    photo: "/images/staff/remyatr.jpg",
   },
 
   {
     name: "Smt. Jyotsana J S",
     designation: "Lab Assistant HG",
-    photo: "images/staff/jyotsanatr.jpeg",
+    photo: "/images/staff/jyotsanatr.jpeg",
   },
   {
     name: "Sri. Dileep Kumar S",
     designation: "Lab Assistant",
-    photo: "images/staff/dileepsir.jpeg",
+    photo: "/images/staff/dileepsir.jpeg",
   },
 ];
 

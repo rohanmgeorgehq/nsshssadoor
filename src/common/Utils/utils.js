@@ -1,6 +1,3 @@
-
-import { FiHome, FiInfo, FiBookOpen, FiUsers, FiImage, FiPhone } from "react-icons/fi";
-
 export const logos = {
   nssLogoPng: "/images/logo.png",
 };
